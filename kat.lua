@@ -528,9 +528,7 @@ Toggle3:CreateKeybind(tostring(Config.Keybind):gsub("Enum.KeyCode.", ""), functi
 	Config.Keybind = Enum.KeyCode[Key]
 end)
 Toggle3:SetState(true)
-Section3:CreateLabel("Credits DekuDimz#7960")
-Section3:CreateLabel("Credits AlexR32#3232 Ui")
-Section3:CreateLabel("Credits BaconLord#0001")
+
 local Colorpicker3 = Section3:CreateColorpicker("UI Color", function(Color)
 	Window:ChangeColor(Color)
 end)
