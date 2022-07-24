@@ -52,7 +52,7 @@ local Settings
 if
     not pcall(
         function()
-            readfile("noobsploit//" .. Name)
+            readfile("BuildABoat.txt//" .. Name)
         end
     )
  then
