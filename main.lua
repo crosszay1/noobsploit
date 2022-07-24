@@ -8,7 +8,7 @@ local Name = "Arsenal.txt"
 
 Des = {}
 if makefolder then
-    makefolder("V.G Hub")
+    makefolder("noobsploit")
 end
 
 local Settings
